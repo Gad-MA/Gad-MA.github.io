@@ -17,34 +17,29 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Autonomus Engineer
+role: Master Manipulator
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+# organizations:
+#   - name: Stanford University
+#     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Tesla's hair
+  - Tesla's eyes
+  - Tesla's lips
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: BSc in Rizzalogy
+      institution: 2022 - 2027
+      year: Rizz Upstate University
+
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -120,6 +115,9 @@ social:
 highlight_name: true
 ---
 
-admin's index : Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Some paragraph about my coolness and my sick, unbelievably smart mind. 
+Another paragraph about my coolness and my sick, unbelievably smart mind.
+And even on more paragraph about my coolness and my sick, unbelievably smart mind. 
+Boy you won't believe it, here goes another paragraph about my coolness and my sick, unbelievably smart mind. 
 {{< cta cta_text="Resume" cta_link="uploads/resume.pdf" cta_new_tab="true" >}}
 {style="text-align: justify;"}

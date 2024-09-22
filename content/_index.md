@@ -8,7 +8,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: Hello
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   # - block: skills
@@ -32,27 +32,30 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Autonomous Team Member
+          company: Cairo University Racing Team - Formula Student
+          company_url: 'https://www.linkedin.com/company/cairo-university-racing-team-formula-student/'
+          company_logo: 'cairo_uni_racing_team_formula_student_logo'
+          # location: Cairo, Egypt
+          date_start: '2024-09-19'
           date_end: ''
-          description: |2-
-              Responsibilities include:
+          # description: |2-
+          #     Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          #     * Analysing
+          #     * Modelling
+          #     * Deploying
+        - title: Brand Ambassador
+          company: Emonovo
+          company_url: 'https://www.emonovo.com/'
+          company_logo: emonovo
+          location: Egypt
+          date_start: '2021-04-01'
+          date_end: '2022-02-01'
+          description: |2-
+              * Increased brand awareness by through successful execution of promotional campaigns and events at high schools.
+              * Organized and moderated virtual events to engage customers and increase brand loyalty.
+              * Developed a series of videos to promote products and services.
     design:
       columns: '2'
   # - block: accomplishments
@@ -127,7 +130,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: Recent Articles
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -167,7 +170,7 @@ sections:
       contact_links:
         - icon: twitter
           icon_pack: fab
-          name: DM Me
+          name: '@Gad2Greatness'
           link: 'https://twitter.com/Gad2Greatness'
       # Automatically link email and phone or display as text?
       autolink: true
