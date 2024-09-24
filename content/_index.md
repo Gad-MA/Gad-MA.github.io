@@ -120,10 +120,12 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: 'Computer Vision'
+          tag: 'Computer Vision'
+        - name: 'Image Processing'
+          tag: 'Image Processing'
+        - name: 'Software Engineering'
+          tag: 'Software Engineering'
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'

@@ -1,11 +1,10 @@
 ---
 title: Bow and Arrow Game using Java and Processing
-summary: A simple game using Processing and Java that tests your precision, speed, and strategic thinking!
+summary: A simple game using Processing and Java that tests your precision, speed, and strategic thinking!<br/>**Java, OOP, Processing**
 tags:
   - OOP
   - Java
   - Software Engineering
-  - Processing
 # date: '2024-04-22'
 weight: 30
 links:
