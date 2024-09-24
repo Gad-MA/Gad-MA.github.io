@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Master Manipulator
+role: ''
 
 # Organizations/Affiliations to show in About widget
 # organizations:
@@ -29,16 +29,18 @@ role: Master Manipulator
 
 # Interests to show in About widget
 interests:
-  - Tesla's hair
-  - Tesla's eyes
-  - Tesla's lips
+  - ML & DL
+  - Neuroscience
+  - Computer Vision
+  - Image Processing
+  - Autonomous Driving
 
 # Education to show in About widget
 education:
   courses:
-    - course: BSc in Rizzalogy
-      institution: 2022 - 2027
-      year: Rizz Upstate University
+    - course: BSc in Systems & Biomedical Engineering
+      institution: Cairo University
+      year: 2027
 
 
 # Skills
@@ -115,9 +117,6 @@ social:
 highlight_name: true
 ---
 
-Some paragraph about my coolness and my sick, unbelievably smart mind. 
-Another paragraph about my coolness and my sick, unbelievably smart mind.
-And even on more paragraph about my coolness and my sick, unbelievably smart mind. 
-Boy you won't believe it, here goes another paragraph about my coolness and my sick, unbelievably smart mind. 
+My name is Mohamed Gad, and I’m a sophomore Systems & Biomedical Engineering student at Cairo University. I’m interested in Artificial Intelligence, Computer Vision, Image Processing, Software Development, and Neuroscience. I apply these skills in the medical field and autonomous driving systems.
 {{< cta cta_text="Resume" cta_link="uploads/resume.pdf" cta_new_tab="true" >}}
 {style="text-align: justify;"}
