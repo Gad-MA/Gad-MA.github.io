@@ -165,6 +165,16 @@ sections:
   #   design:
   #     columns: '2'
 
+  - block: collection
+    id: twitter-threads
+    content:
+      title: 'Twitter Threads'
+      filters:
+        folders:
+          - twitter-threads
+    design:
+      view: compact
+
   - block: contact
     id: contact
     content:
