@@ -19,6 +19,7 @@ sections:
   #     username: admin
   #   design:
   #     columns: '1'
+
   - block: experience
     id: experience
     content:
@@ -58,6 +59,7 @@ sections:
               * Developed a series of videos to promote products and services.
     design:
       columns: '2'
+
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -100,6 +102,7 @@ sections:
   #         url: ''
   #   design:
   #     columns: '2'
+
   - block: portfolio
     id: projects
     content:
@@ -127,38 +130,41 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: collection
-    id: posts
-    content:
-      title: Recent Articles
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 0
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
-  - block: tag_cloud
-    content:
-      title: Topics I talk about
-    design:
-      columns: '2'
+
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: Recent Articles
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 0
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
+
+  # - block: tag_cloud
+  #   content:
+  #     title: Topics I talk about
+  #   design:
+  #     columns: '2'
+
   - block: contact
     id: contact
     content:
