@@ -42,7 +42,7 @@ sections:
           company: Emonovo
           company_url: 'https://www.emonovo.com/'
           company_logo: emonovo
-          location: Egypt
+          # location: Egypt
           date_start: '2021-04-01'
           date_end: '2022-02-01'
           description: |2-
