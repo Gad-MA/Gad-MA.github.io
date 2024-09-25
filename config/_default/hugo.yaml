@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Mohamed Gad # Website name
-baseURL: 'https://gad-ma.github.io/' # Website URL
+baseURL: 'https://mohamedgad.netlify.app/' # Website URL
 
 ############################
 ## LANGUAGE
