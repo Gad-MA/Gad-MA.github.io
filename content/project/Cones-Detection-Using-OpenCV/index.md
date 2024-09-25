@@ -15,13 +15,9 @@ links:
     icon_pack: fab
     name: Python
     url: 'https://#'
-  - icon: 
-    icon_pack: 
-    name: OpenCV
+  - name: OpenCV
     url: 'https://#'
-  - icon: 
-    icon_pack: 
-    name: NumPy
+  - name: 'NumPy'
     url: 'https://#'
 
 # Optional external URL for project (replaces project detail page).
