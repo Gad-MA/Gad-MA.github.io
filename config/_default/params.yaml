@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'Mohamed Gad'
+    description: ''
+    twitter: ''
   analytics:
     google_analytics: 'G-V5J865MYGC'
     baidu_tongji: ''
