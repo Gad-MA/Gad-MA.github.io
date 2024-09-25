@@ -4,7 +4,7 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: About me
     url: '#about'
     weight: 10
   - name: Experience
@@ -13,6 +13,9 @@ main:
   - name: Projects
     url: '#projects'
     weight: 30
+  - name: Twitter Threads
+    url: '#twitter-threads'
+    weight: 40
   # - name: Articles
   #   url: '#posts'
   #   weight: 40

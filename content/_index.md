@@ -119,7 +119,7 @@ sections:
   - block: collection
     id: twitter-threads
     content:
-      title: '<i class="fa-brands fa-square-x-twitter"></i>Twitter Threads'
+      title: 'Twitter Threads'
       filters:
         folders:
           - twitter-threads
