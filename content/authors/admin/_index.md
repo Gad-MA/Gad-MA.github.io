@@ -117,6 +117,6 @@ social:
 highlight_name: true
 ---
 
-My name is Mohamed Gad, I’m a sophomore Systems & Biomedical Engineering student at Cairo University. I’m interested in Artificial Intelligence, Computer Vision, Image Processing, Software Development, and Neuroscience. I apply these skills in the medical field and autonomous driving systems.
+My name is Mohamed Gad, a sophomore studying Systems & Biomedical Engineering at Cairo University. I have a strong interest in Artificial Intelligence, Computer Vision, Image Processing, Software Development, and Neuroscience. I aim to leverage these skills in advancing both medical technologies and autonomous driving cars.
 {{< cta cta_text="Resume" cta_link="uploads/resume.pdf" cta_new_tab="true" >}}
 {style="text-align: justify;"}
