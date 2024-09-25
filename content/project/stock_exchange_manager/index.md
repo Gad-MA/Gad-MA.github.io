@@ -6,7 +6,6 @@ summary: A Java-based platform utilizing Object-Oriented Programming (OOP) princ
 tags:
     - Java
     - OOP
-    - Software Engineering
 weight: 10
 links:
   - icon: github

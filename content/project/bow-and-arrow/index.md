@@ -4,7 +4,6 @@ summary: A simple game using Processing and Java that tests your precision, spee
 tags:
   - OOP
   - Java
-  - Software Engineering
 # date: '2024-04-22'
 weight: 30
 links:
