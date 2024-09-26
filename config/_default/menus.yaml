@@ -24,9 +24,9 @@ main:
     weight: 50
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-  - name: Resume
-    url: uploads/resume.pdf
-    weight: 70
+  # - name: Resume
+  #   url: uploads/resume.pdf
+  #   weight: 70
 
 ## You can create your own pages by creating a folder in the content directory and create a _index.md file inside it
 ## then you can access them on the web through "https://yourdomainname.com/<the folder name>"
