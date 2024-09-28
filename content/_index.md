@@ -25,7 +25,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Autonomous Team Member
+        - title: Autonomous Driving System Software Engineer
           company: Cairo University Racing Team - Formula Student
           company_url: 'https://www.linkedin.com/company/cairo-university-racing-team-formula-student/'
           company_logo: 'cairo_uni_racing_team_formula_student_logo'
