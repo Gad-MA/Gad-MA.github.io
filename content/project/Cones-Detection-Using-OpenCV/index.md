@@ -6,6 +6,7 @@ tags:
     - Computer Vision
     - Autonomous Driving
 weight: 10
+show_date: false
 links:
 #  - icon: github
 #    icon_pack: fab

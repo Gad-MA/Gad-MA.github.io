@@ -4,6 +4,7 @@ summary: This Python project implements two common image interpolation technique
 tags:
     - Image Processing
 weight: 20
+show_date: false
 links:
   - icon: python
     icon_pack: fab
