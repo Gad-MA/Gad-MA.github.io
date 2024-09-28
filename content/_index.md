@@ -119,7 +119,7 @@ sections:
   - block: collection
     id: twitter-threads
     content:
-      title: 'Twitter Threads'
+      title: '</p>{{<ico font-awesome-brands x-twitter>}} <span style="vertical-align: middle;">Threads</span>'
       filters:
         folders:
           - twitter-threads

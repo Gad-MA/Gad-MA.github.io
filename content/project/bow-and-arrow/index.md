@@ -6,6 +6,7 @@ tags:
   - Java
 # date: '2024-04-22'
 weight: 30
+show_date: false
 links:
   - icon: java
     icon_pack: fab

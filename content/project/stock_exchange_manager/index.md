@@ -5,6 +5,7 @@ tags:
     - Java
     - OOP
 weight: 10
+show_date: false
 links:
   - icon: java
     icon_pack: fab
