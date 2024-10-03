@@ -32,7 +32,7 @@ As a result, each cell in the tissue becomes uniquely colored based on the speci
 
 ![image.png](images/image.png)
 
-# Why Brainbow is a Game Changer in Neuroscience
+# Why Brainbow is a Game Changer in Neuroscience?
 
 ![brainbownerves.jpg](images/brainbownerves.jpg)
 
