@@ -4,7 +4,6 @@ go 1.15
 
 require (
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.6
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.1 // indirect
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231108141515-0478cf6921f9
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v1.1.2
 	github.com/hugomods/icons/vendors/font-awesome v0.6.8 // indirect
