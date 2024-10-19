@@ -85,7 +85,7 @@ PINNs offer a more efficient alternative. Instead of relying on traditional solv
 In theory, if we had perfect mathematical models that were easy to solve, we wouldn’t need PINNs. But the reality is far more complex. Whether we’re dealing with incomplete models, slow numerical solvers, or noisy data, PINNs offer a powerful tool for solving real-world problems by combining the best of physics and machine learning. They allow us to not just use the models we have, but to push beyond their limitations and tackle challenges that were previously out of reach.
 
 # The Power of PINNs
-![](images/figure.jpg "Inferring quantitative hemodynamics in a 3D intracranial aneurysm. SOURCE: https://doi.org/10.1126/science.aaw4741")
+![](images/figure.jpeg "Inferring quantitative hemodynamics in a 3D intracranial aneurysm. SOURCE: https://doi.org/10.1126/science.aaw4741")
 A very interesting paper that demonstrated the great ability of PINNs at inferring unmeasured variables is “Raissi M, Yazdani A, Karniadakis GE. Hidden fluid mechanics: Learning velocity and pressure fields from flow visualizations.”.
 
 Flow visualization has been the art of making fluid motion visible in physical and biological systems Although such flow patterns can be, in principle, described by the Navier-Stokes equations, extracting the velocity and pressure fields directly from the images is challenging. The paper shows how you can infer detailed fluid flow properties, like velocity and pressure fields, using relatively limited data, which aren’t necessarily the data you are interested in like velocity and pressure using PINNs.
