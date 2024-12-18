@@ -117,6 +117,18 @@ sections:
   #     columns: '2'
 
   - block: collection
+    id: research
+    content:
+      title: Research Work
+      filters:
+        folders:
+          - publication
+    design:
+      columns: '2'
+      view: card
+      # view: citation
+
+  - block: collection
     id: twitter-threads
     content:
       title: '</p>{{<ico font-awesome-brands x-twitter>}} <span style="vertical-align: middle;">Threads</span>'
