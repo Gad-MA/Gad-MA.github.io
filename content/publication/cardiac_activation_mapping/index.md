@@ -33,7 +33,7 @@ links:
 url_pdf: uploads/cardiac_activation_mapping/cardiac_activation_mapping.pdf
 # url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: '#'
-url_poster: '#'
+url_poster: uploads/cardiac_activation_mapping/cardiac_activation_mapping_poster.pdf
 url_project: ''
 # url_slides: ''
 # url_source: '#'
