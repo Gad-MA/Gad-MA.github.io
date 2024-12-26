@@ -61,7 +61,21 @@ image:
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+{{< cta cta_text="Paper" cta_link="/uploads/cardiac_activation_mapping/cardiac_activation_mapping.pdf" cta_new_tab="true" >}}
+{{< cta cta_text="Poster" cta_link="/uploads/cardiac_activation_mapping/cardiac_activation_mapping_poster.pdf" cta_new_tab="true" >}}
 # Team Members
+<a href="https://gad-ma.github.io/" target="_blank">Mohamed Gad</a>
+</br>
+<a href="https://www.linkedin.com/in/mazen-atlam-801788267/" target="_blank">Mazen Atlam</a>
+</br>
+<a href="https://www.linkedin.com/in/anas-mohamed-elsheikh/" target="_blank">Anas Elsheikh</a>
+</br>
+<a href="https://www.linkedin.com/in/sherifelgendy04/" target="_blank">Sherif Elgendy</a>
+</br>
+<a href="https://www.linkedin.com/in/sherifelgendy04/" target="_blank">Sherif Elgendy</a>
+</br>
+Ahmed Abdelghafar
+
 # References
 [1] “Correction to: Heart Disease and Stroke Statistics—
 2018 Update: A Report From the American
