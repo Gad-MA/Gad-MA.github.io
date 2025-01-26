@@ -38,6 +38,7 @@ url_project: ''
 # url_slides: ''
 # url_source: '#'
 # url_video: '#'
+url_code: "https://github.com/Gad-MA/cardiac-activation-mapping-using-PINNs/blob/main/cardiac_activaton_mapping.ipynb"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -61,8 +62,14 @@ image:
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+You can check the full paper, poster, and code of this research project from the buttons below.
+
 {{< cta cta_text="Paper" cta_link="/uploads/cardiac_activation_mapping/cardiac_activation_mapping.pdf" cta_new_tab="true" >}}
+
 {{< cta cta_text="Poster" cta_link="/uploads/cardiac_activation_mapping/cardiac_activation_mapping_poster.pdf" cta_new_tab="true" >}}
+
+{{< cta cta_text="Code" cta_link="https://github.com/Gad-MA/cardiac-activation-mapping-using-PINNs/blob/main/cardiac_activaton_mapping.ipynb" cta_new_tab="true" >}}
+
 # Team Members
 <a href="https://gad-ma.github.io/" target="_blank">Mohamed Gad</a>
 </br>
@@ -75,6 +82,8 @@ image:
 Ahmed Abdelghafar
 
 # References
+*This work is reproduction of "Sahli Costabal, F., Yang, Y., Perdikaris, P., Hurtado, D. E., & Kuhl, E. (2020). Physics-Informed Neural Networks for Cardiac Activation Mapping. Frontiers in Physics, 8. doi:10.3389/fphy.2020.00042" for learning purposes.*
+
 [1] “Correction to: Heart Disease and Stroke Statistics—
 2018 Update: A Report From the American
 Heart Association”. In: Circulation 137.12 (2018),
