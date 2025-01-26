@@ -6,7 +6,7 @@ date: "2024-12-18T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+# publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -15,13 +15,13 @@ publishDate: "2017-01-01T00:00:00Z"
 # publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication:
+publication_short:
 
 abstract: Atrial fibrillation (AF) is the most common heart arrhythmia, affecting millions worldwide. Diagnosis and treatment of AF often involves creating electro-anatomic activation maps, which represent the timing of tissue activation across the heart’s atria. Current mapping methods use interpolation techniques like linear or Gaussian process regression based on sparse electrode data collected within the atria. However, these techniques suffer from noise from electrode positioning and lack of prior physical knowledge of cardiac wave propagation, leading to suboptimal diagnostic accuracy. To address these challenges, we propose a physics-informed neural network (PINN) for cardiac activation mapping that incorporates the underlying wave propagation dynamics of cardiac electrical activity. Benchmarking against traditional interpolation and Gaussian process regression, the PINN model demonstrated improved diagnostic accuracy, paving the way for improved procedural efficiency and patient outcomes in atrial fibrillation diagnostics.
 
 # Summary. An optional shortened abstract.
-summary:
+summary: Atrial fibrillation (AF), the most common heart arrhythmia, is diagnosed and treated using electro-anatomic activation maps, which currently rely on interpolation methods like linear or Gaussian process regression but are limited by noise and lack of physical knowledge of cardiac wave dynamics. To overcome these challenges, a physics-informed neural network (PINN) was developed, incorporating the underlying wave propagation dynamics of cardiac electrical activity for more accurate mapping.
 
 tags:
 # - Source Themes
@@ -69,8 +69,6 @@ image:
 <a href="https://www.linkedin.com/in/mazen-atlam-801788267/" target="_blank">Mazen Atlam</a>
 </br>
 <a href="https://www.linkedin.com/in/anas-mohamed-elsheikh/" target="_blank">Anas Elsheikh</a>
-</br>
-<a href="https://www.linkedin.com/in/sherifelgendy04/" target="_blank">Sherif Elgendy</a>
 </br>
 <a href="https://www.linkedin.com/in/sherifelgendy04/" target="_blank">Sherif Elgendy</a>
 </br>

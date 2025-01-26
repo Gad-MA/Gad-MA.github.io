@@ -125,8 +125,9 @@ sections:
           - publication
     design:
       columns: '2'
-      view: card
+      # view: card
       # view: citation
+      view: compact
 
   - block: collection
     id: twitter-threads
