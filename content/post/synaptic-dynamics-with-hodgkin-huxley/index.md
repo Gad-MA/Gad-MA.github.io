@@ -105,15 +105,35 @@ These equations are fitted to experimental data, capturing the voltage-sensitive
 
 Combining the equations for ionic currents and gating variables, Hodgkin and Huxley derived the full equation for membrane potential dynamics:
 
+{{< math >}}
 $$
-I_\text{total} = C_m \frac{dV_m}{dt} + \bar{g}_\text{Na}m^3h(V_m-E_\text{Na})+\bar{g}_\text{K}n^4(V_m-E_\text{K})+ g_\text{leak} (V_m-E_\text{leak})
+\begin{align}
+I_\text{total} &= C_m \frac{dV_m}{dt} 
+\\
+&+ \bar g_\text{Na}m^3h(V_m-E_\text{Na}) 
+\\
+&+ \bar g_\text{K}n^4(V_m-E_\text{K})
+\\
+&+ g_\text{leak}(V_m-E_\text{leak})
+\end{align}
 $$
+{{< /math >}}
 
 In many cases $I_\text{total}$ is the external stimulus current applied to the neuron, thus the equation can be rewritten as:
 
+{{< math >}}
 $$
-I_\text{ext} = C_m \frac{dV_m}{dt} + \bar{g}_\text{Na}m^3h(V_m-E_\text{Na}) + \bar{g}_\text{K}n^4(V_m-E_\text{K}) + g_\text{leak}(V_m-E_\text{leak})
+\begin{align}
+I_\text{ext} &= C_m \frac{dV_m}{dt}
+\\
+&+ \bar g_\text{Na}m^3h(V_m-E_\text{Na})
+\\
+&+ \bar g_\text{K}n^4(V_m-E_\text{K})
+\\
+&+ g_\text{leak}(V_m-E_\text{leak})
+\end{align}
 $$
+{{< /math >}}
 
 Using this model, Hodgkin and Huxley successfully simulated action potentials, showing how a small depolarizing stimulus triggers a rapid rise and fall in $V_m$. The interplay between $g_\text{Na}$ and $g_\text{K}$ explains the characteristic shape of action potentials, with sodium driving the upstroke and potassium restoring the resting state.
 
@@ -181,15 +201,37 @@ To simulate a network of neurons effectively, we need to incorporate synaptic cu
 
 The Hodgkin-Huxley equation describes the membrane potential dynamics of a neuron as:
 
+{{< math >}}
 $$
-I_\text{ext} = C_m \frac{dV_m}{dt}+\bar{g}_\text{Na}m^3h(V_m-E_\text{Na})+\bar{g}_\text{K}n^4(V_m-E_\text{K})+ g_\text{leak}(V_m-E_\text{leak})
+\begin{align}
+I_\text{ext} &= C_m \frac{dV_m}{dt}
+\\
+&+ \bar{g}_\text{Na}m^3h(V_m-E_\text{Na})
+\\
+&+ \bar{g}_\text{K}n^4(V_m-E_\text{K})
+\\
+&+ g_\text{leak}(V_m-E_\text{leak})
+\end{align}
 $$
+{{< /math >}}
 
 To account for synaptic input, we include the synaptic current $I_\text{syn}$:
 
+{{< math >}}
 $$
-I_\text{ext} = C_m \frac{dV_m}{dt} + \bar{g}_\text{Na}m^3h(V_m-E_\text{Na}) + \bar{g}_\text{K}n^4(V_m-E_\text{K}) + g_\text{leak}(V_m-E_\text{leak}) + I_\text{syn}
+\begin{align}
+I_\text{ext} &= C_m \frac{dV_m}{dt}
+\\
+&+ \bar{g}_\text{Na}m^3h(V_m-E_\text{Na})
+\\
+&+ \bar{g}_\text{K}n^4(V_m-E_\text{K})
+\\
+&+ g_\text{leak}(V_m-E_\text{leak}) 
+\\
+&+ I_\text{syn}
+\end{align}
 $$
+{{< /math >}}
 
 The synaptic current is given by, as defined earlier:
 
