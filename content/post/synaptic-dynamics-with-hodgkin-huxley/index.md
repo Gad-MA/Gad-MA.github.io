@@ -171,7 +171,7 @@ where $\alpha_{syn}$ is the binding constant, $\beta_{syn}$ the unbinding consta
 
 ## **Excitatory and Inhibitory Synapses**
 
-Synapses can be classified based on their effect on the postsynaptic neuron as excitatory or inhibitory. Excitatory Synapses ****are typically associated with neurotransmitters like glutamate, induce depolarization of the postsynaptic membrane by allowing the influx of cations such as $\text{Na}^+$. This increases the likelihood of the postsynaptic neuron reaching the threshold to fire an action potential. The reversal potential $E_{\text{syn}}$ for excitatory synapses is usually positive relative to the resting membrane potential, approximately equals Zero mV.
+Synapses can be classified based on their effect on the postsynaptic neuron as excitatory or inhibitory. Excitatory Synapses are typically associated with neurotransmitters like glutamate, induce depolarization of the postsynaptic membrane by allowing the influx of cations such as $\text{Na}^+$. This increases the likelihood of the postsynaptic neuron reaching the threshold to fire an action potential. The reversal potential $E_{\text{syn}}$ for excitatory synapses is usually positive relative to the resting membrane potential, approximately equals Zero mV.
 
 Inhibitory Synapses are often linked with neurotransmitters like GABA, these synapses facilitate hyperpolarization by allowing the influx of $\text{Cl}^-$ ions or efflux of $\text{K}^+$. This decreases the likelihood of action potential generation. The reversal potential $E_{\text{syn}}$ for inhibitory synapses is typically negative relative to the resting membrane potential, approximately equals -75 mV.
 
