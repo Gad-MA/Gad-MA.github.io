@@ -93,11 +93,13 @@ where $\alpha_x$ and $\beta_x$ are rate constants that depend on the membrane po
 
 For instance, the equations for sodium activation $(m)$ and inactivation $(h)$ rates are:
 
+{{< math >}}
 $$
 \begin{align*}
 &\alpha_m= \frac{0.1(V_m + 40)}{1-e^{-(V_m+40)/10}}, \quad \beta_m = 4e^{-0.0556(V_m+65)}, \\ &\alpha_h = 0.07e^{−0.05(V_m+65)}, \quad \beta_h=\frac{1}{1+e^{−(V_m+35)/10}} \; .
 \end{align*}
 $$
+{{< /math >}}
 
 These equations are fitted to experimental data, capturing the voltage-sensitive gating of ion channels.
 
