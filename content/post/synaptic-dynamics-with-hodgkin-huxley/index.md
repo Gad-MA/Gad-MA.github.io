@@ -24,13 +24,33 @@ Simulating a single neuron is an easy task, thanks to the Hodgkin Huxley model, 
 
 In this blog, We’re going to simulate a simple network of neurons. We’re going to create a model and a simulation of two neurons that interact at a synapse.
 
+<details open>
+  <summary><b>Table of Contents</b></summary>
+
+- [The Hodgkin-Huxley Model](#the-hodgkin-huxley-model)
+  - [The Biophysical Basis of the Model](#the-biophysical-basis-of-the-model)
+  - [The Membrane as an Electrical Circuit](#the-membrane-as-an-electrical-circuit)
+  - [Ionic Currents and Conductance](#ionic-currents-and-conductance)
+  - [Gating Variables and Their Dynamics](#gating-variables-and-their-dynamics)
+  - [Putting it all together](#putting-it-all-together)
+- [The Synapse](#the-synapse)
+- [Modeling The Synapse](#modeling-the-synapse)
+  - [The Synaptic Current](#the-synaptic-current)
+  - [Synaptic Conductance Dynamics](#synaptic-conductance-dynamics)
+  - [Excitatory and Inhibitory Synapses](#excitatory-and-inhibitory-synapses)
+- [Integrating Synapses with the Hodgkin-Huxley model of the neuron](#integrating-synapses-with-the-hodgkin-huxley-model-of-the-neuron)
+- [Implementing the Computational Model in Python](#implementing-the-computational-model-in-python)
+  - [Results](#results)
+
+</details>
+
 # The Hodgkin-Huxley Model
 
 The Hodgkin-Huxley model is a mathematical framework that describes how neurons generate and propagate electrical signals. Proposed in 1952 by Alan Hodgkin and Andrew Huxley, this model laid the foundation for modern neuroscience by detailing the ionic mechanisms underlying the action potential.
 
 This section explores the model's biophysical basis, mathematical formulation, and the interplay between its variables.
 
-## **The Biophysical Basis of the Model**
+## The Biophysical Basis of the Model
 
 Neurons communicate using electrical signals, which are driven by differences in ion concentrations across their membranes. The key players are sodium $(\text{Na}^+)$ and potassium $(\text{K}^+)$ ions, along with leak channels that allow other ions to pass through. These ions move via specialized protein channels embedded in the neuronal membrane, driven by:
 
@@ -39,7 +59,7 @@ Neurons communicate using electrical signals, which are driven by differences in
 
 The Hodgkin-Huxley model focuses on the squid giant axon and describes how the membrane potential evolves over time in response to ion movement.
 
-## **The Membrane as an Electrical Circuit**
+## The Membrane as an Electrical Circuit
 
 Hodgkin and Huxley modeled the neuron as the following electrical circuit.
 
@@ -53,7 +73,7 @@ $$
 
 where, $I_\text{total}$ is the total membrane current per unite area, $C_m$ is the membrane capacitance per unit area, and $V_m$ is the membrane potential. $I_\text{Na}$, $I_\text{K}$, and $I_\text{leak}$ are the sodium, potassium, and leak currents, respectively. These are referred to as ionic currents because they result from the movement of ions.
 
-## **Ionic Currents and Conductance**
+## Ionic Currents and Conductance
 
 Each ionic current $(I_\text{ion})$ is determined by Ohm’s Law
 
@@ -159,7 +179,7 @@ The magnitude and duration of the synaptic current depend on neurotransmitter re
 
 Modeling synapses, particularly chemical synapses, requires a detailed understanding of the dynamics of neurotransmitter release, receptor activation, and subsequent ion flow in the postsynaptic neuron. What is usually meant by modeling the synapse is modeling the **synaptic current** flowing into the postsynaptic cell and its effect.
 
-## **The Synaptic Current**
+## The Synaptic Current
 
 The synaptic current $I_{syn}$ is generated when neurotransmitters bind to receptors on the postsynaptic neuron, triggering ion channels to open. The synaptic current is mathematically expressed as:
 
@@ -173,7 +193,7 @@ where:
 - $V_m$ is the membrane potential of the postsynaptic neuron.
 - $E_{syn}$ is the synaptic reversal potential, determined by the type of neurotransmitter and ion channels involved.  For inhibitory synapses $E_{syn}$ is usually set to −75 mV, whereas for excitatory synapses  $E_{syn} \approx 0$.
 
-## **Synaptic Conductance Dynamics**
+## Synaptic Conductance Dynamics
 
 The synaptic conductance $g_{syn}$ evolves over time based on neurotransmitter release and receptor kinetics. It is often modeled as:
 
@@ -191,13 +211,13 @@ $$
 
 where $\alpha_{syn}$ is the binding constant, $\beta_{syn}$ the unbinding constant and $(1−s)$ the fraction of closed channels where binding of neurotransmitter can occur.
 
-## **Excitatory and Inhibitory Synapses**
+## Excitatory and Inhibitory Synapses
 
 Synapses can be classified based on their effect on the postsynaptic neuron as excitatory or inhibitory. Excitatory Synapses are typically associated with neurotransmitters like glutamate, induce depolarization of the postsynaptic membrane by allowing the influx of cations such as $\text{Na}^+$. This increases the likelihood of the postsynaptic neuron reaching the threshold to fire an action potential. The reversal potential $E_{\text{syn}}$ for excitatory synapses is usually positive relative to the resting membrane potential, approximately equals Zero mV.
 
 Inhibitory Synapses are often linked with neurotransmitters like GABA, these synapses facilitate hyperpolarization by allowing the influx of $\text{Cl}^-$ ions or efflux of $\text{K}^+$. This decreases the likelihood of action potential generation. The reversal potential $E_{\text{syn}}$ for inhibitory synapses is typically negative relative to the resting membrane potential, approximately equals -75 mV.
 
-# **Integrating Synapses with the Hodgkin-Huxley model of the neuron**
+# Integrating Synapses with the Hodgkin-Huxley model of the neuron
 
 To simulate a network of neurons effectively, we need to incorporate synaptic currents into the Hodgkin-Huxley framework. This integration involves modifying the original Hodgkin-Huxley equations to account for the additional current generated by synaptic activity. The resulting model captures both the intrinsic dynamics of individual neurons and their interactions via synaptic connections.
 
@@ -314,7 +334,7 @@ def synaptic_current(V_pre, V_post, g_syn, E_syn, r):
 def ds_dt(s, V_pre):
     return alpha_s * N(V_pre) * (1 - s) - beta_s * s
 
-# Stimulus function
+# Stimulus of Neuron 1 function
 def I_stim(t, stimulus_initial_time, stimulus_duration):
     return (
         40
@@ -336,7 +356,7 @@ def dSystem_dt(X, t, stimulus_initial_time, stimulus_duration, synapse_type):
     # Dynamics of gating variables
     ds = ds_dt(s, V_1)
 
-    # Sensory neuron dynamics
+    # Neuron 1 dynamics
     dV_1 = (
         I_stim(t, stimulus_initial_time, stimulus_duration)
         - I_Na(V_1, m_1, h_1)
@@ -347,7 +367,7 @@ def dSystem_dt(X, t, stimulus_initial_time, stimulus_duration, synapse_type):
     dh_1 = alpha_h(V_1) * (1 - h_1) - beta_h(V_1) * h_1
     dn_1 = alpha_n(V_1) * (1 - n_1) - beta_n(V_1) * n_1
 
-    # Extensor motor neuron dynamics
+    # Neuron 2 dynamics
     dV_2 = (
         + I_syn
         - I_Na(V_2, m_2, h_2)
@@ -378,11 +398,11 @@ t = np.arange(0, simulation_duration, dt)
 # Initial conditions for all neurons (resting state)
 X0 = np.array([-65, 0.05, 0.6, 0.32] * 2 + [0.0])
 
-# Solve the system
 stimulus_initial_time = 10 # in ms
 stimulus_duration = 1 # in ms
 synapse_type = "in"
 
+# Solve the system
 X = odeint(dSystem_dt, X0, t, args=(stimulus_initial_time, stimulus_duration, synapse_type))
 neuron_1_potential = X[:,0]
 neuron_2_potential = X[:,4]
