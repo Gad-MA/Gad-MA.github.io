@@ -16,10 +16,12 @@ links:
     icon_pack: fab
     name: Python
     url: 'https://#'
-
-
 ---
-You can download the simulator from Github releases and you can check the full Github repo of the project.
+You can download the simulator from the button below: 
+
+{{< cta cta_text="Download {{< ico fas download >}}" cta_link="https://github.com/Gad-MA/A-3D-Simulator-of-the-Patellar-Reflex-and-Demyelination-Effects/releases/download/v0.1.0/3D_Patellar_Reflex_Simulator.zip" cta_new_tab="true" >}}
+
+You can check the Github repo of the project from the button below:
 
 {{< cta cta_text="{{< ico fab github >}} Github {{< ico fas arrow-up-right-from-square >}}" cta_link="https://github.com/Gad-MA/A-3D-Simulator-of-the-Patellar-Reflex-and-Demyelination-Effects" cta_new_tab="true" >}}
 
@@ -80,7 +82,13 @@ Building on the implementation outlined in the earlier blog post, we can extend 
 
 # Creating the 3D Visualization using Unity
 
-Coming Soon...
+Unity brings the patellar reflex to life in a fully interactive 3D simulation. It visually demonstrates how a simple tap on the patellar tendon sets off a chain reaction in the nervous system, sending signals through sensory and motor neurons and ultimately causing the leg to kick forward. More than just a basic reflex model, the project also explores how demyelination can disrupt signal transmission, providing insight into neurological conditions that affect movement. Remember to visit the [Github repo](https://github.com/Gad-MA/A-3D-Simulator-of-the-Patellar-Reflex-and-Demyelination-Effects) to check the Unity project.
+
+To break it down, the core of the simulation revolves around two key aspects: neural signal propagation and knee movement. The `ActionPotential.cs` script handles the first part, managing how signals travel along different types of neurons. It uses Transform objects to define the pathways for sensory and motor neurons, while visual effects like bloom highlights and game objects representing neural structures help bring the activity to life. An additional feature allows users to toggle myelin sheaths on and off using a checkbox, illustrating the impact of demyelination on reaction speed, visualized as a slower traveling signal that might fade out before reaching the axon terminal..
+
+On the movement side, the `KneeController.cs` script ensures that the knee moves in a realistic way. It takes advantage of Unity’s HingeJoint physics component to create natural knee motion. When the neural circuit activates, the knee extends smoothly to a target angle, then gradually relaxes back to its resting position using interpolation functions. To keep things interactive, the simulation allows users to manually trigger the reflex with pressing spacebar, mimicking the hammer tap on the knee.
+
+The project is built using standard Unity practices, keeping neural activity, movement, and user interaction neatly organized in separate scripts. With detailed 3D anatomical models enhancing the scene, the result is a compelling, educational simulation that makes an otherwise complex biological process easy to grasp.
 
 # Result
 
