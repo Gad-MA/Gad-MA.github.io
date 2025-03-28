@@ -19,7 +19,7 @@ tags:
   - AI
 ---
 
-<details>
+<details open>
 
 <summary><b>Table of Contents</b></summary>
 
