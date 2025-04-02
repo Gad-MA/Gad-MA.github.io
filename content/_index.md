@@ -32,12 +32,10 @@ sections:
           # location: Cairo, Egypt
           date_start: '2024-09-19'
           date_end: ''
-          # description: |2-
-          #     Responsibilities include:
-
-          #     * Analysing
-          #     * Modelling
-          #     * Deploying
+          description: |2-
+            Working on the Perception model of the autonomous racing vehicle, developing:
+            - Real-time cone detection pipeline using YOLO.
+            - 2D-to-3D cones positioning pipeline using PnP (Perspective-n-Point) algorithm.
         - title: Brand Ambassador
           company: Emonovo
           company_url: 'https://www.emonovo.com/'
