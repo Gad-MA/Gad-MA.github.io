@@ -81,6 +81,19 @@ sections:
       flip_alt_rows: false
 
   - block: collection
+    id: research
+    content:
+      title: Research Work
+      filters:
+        folders:
+          - publication
+    design:
+      columns: '2'
+      # view: card
+      # view: citation
+      view: compact
+
+  - block: collection
     id: posts
     content:
       title: Blog Posts
@@ -114,28 +127,6 @@ sections:
   #   design:
   #     columns: '2'
 
-  - block: collection
-    id: research
-    content:
-      title: Research Work
-      filters:
-        folders:
-          - publication
-    design:
-      columns: '2'
-      # view: card
-      # view: citation
-      view: compact
-
-  - block: collection
-    id: twitter-threads
-    content:
-      title: '</p>{{<ico font-awesome-brands x-twitter>}} <span style="vertical-align: middle;">Threads</span>'
-      filters:
-        folders:
-          - twitter-threads
-    design:
-      view: compact
 
   - block: contact
     id: contact
@@ -145,11 +136,11 @@ sections:
       text: If you have any questions, or if you just want to say hi, please feel free to reach out.
       # Contact (add or remove contact options as necessary)
       email: mohamed.a.gad55@gmail.com
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: '@Gad2Greatness'
-          link: 'https://twitter.com/Gad2Greatness'
+      # contact_links:
+      #   - icon: twitter
+      #     icon_pack: fab
+      #     name: ''
+      #     link: ''
       # Automatically link email and phone or display as text?
       autolink: true
     design:

@@ -91,12 +91,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:mohamed.a.gad55@gmail.com'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/Gad2Greatness
-    label: Follow me on Twitter
-    display:
-      header: false # make it true to appear in the nav bar with the label attribute on hovering
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: 
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: false # make it true to appear in the nav bar with the label attribute on hovering
   # - icon: google-scholar
   #   icon_pack: ai
   #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
