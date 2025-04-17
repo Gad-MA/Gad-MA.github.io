@@ -25,6 +25,9 @@ You can check the Github repo of the project from the button below:
 
 {{< cta cta_text="{{< ico fab github >}} Github {{< ico fas arrow-up-right-from-square >}}" cta_link="https://github.com/Gad-MA/A-3D-Simulator-of-the-Patellar-Reflex-and-Demyelination-Effects" cta_new_tab="true" >}}
 
+# Demo
+<video src="./images/orientation_github.mp4" controls></video>
+
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
