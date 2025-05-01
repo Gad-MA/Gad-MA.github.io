@@ -25,17 +25,25 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Software Engineering Research Intern
+          company: University of Illinois Urbana-Champaign
+          company_url: 'https://illinois.edu/'
+          company_logo: 'uiuc'
+          # location: Cairo, Egypt
+          date_start: '2025-05-01'
+          date_end: ''
+          description: |2-
         - title: Autonomous Driving System Software Engineer
           company: Cairo University Racing Team - Formula Student
           company_url: 'https://www.linkedin.com/company/cairo-university-racing-team-formula-student/'
           company_logo: 'cairo_uni_racing_team_formula_student_logo'
           # location: Cairo, Egypt
           date_start: '2024-09-19'
-          date_end: ''
+          date_end: '2025-05-01'
           description: |2-
-            Working on the Perception model of the autonomous racing vehicle, developing:
-            - Real-time cone detection pipeline using YOLO.
-            - 2D-to-3D cones positioning pipeline using PnP (Perspective-n-Point) algorithm.
+            Developed a visual-based perception model for the autonomous racing car by:
+            - Implementing real-time 2D cone detection, color classification, and pose estimation using YOLO.
+            - Developing 2D-to-3D cone pose estimation using the classical Perspective-n-Point (PnP) algorithm.
         - title: Brand Ambassador
           company: Emonovo
           company_url: 'https://www.emonovo.com/'
