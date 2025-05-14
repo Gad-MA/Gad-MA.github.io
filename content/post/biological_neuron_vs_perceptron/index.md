@@ -1,7 +1,7 @@
 ---
 title: "Biological Neurons VS AI Neurons (The Perceptron)"
 
-summary: ""
+summary: "The main goal of this blog is to exonerate biological neurons and show that a single biological neuron is much more computationally powerful and sophisticated than you might think."
 
 # Date published
 date: '2025-03-28'
