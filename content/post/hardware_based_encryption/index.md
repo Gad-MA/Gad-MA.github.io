@@ -45,7 +45,7 @@ I recently came across a research paper that really pushed the idea of hardware 
 
 The researchers used biomemristor, a type of memory component that works by changing its resistance state depending on voltage. It acts like a brain synapse, and they used it to build actual logic gates and encryption circuits. They used it to encrypt full medical images.
 
-What interested me the most how they took a component known for its brain-like memory behavior and turned it into a working logic system that protects sensitive medical data in a completely physical way.
+What interested me the most how they took a component known for its brain-like memory behavior and turned it into a working logic system that protects sensitive medical data and full medical images, like CT images, relying solely on hardware circuits.
 
 They chained these biomemristors together to form basic logic gates: AND, OR, XOR, etc. Then they built a 3-to-8 decoder — the kind you’d use to pick out one of eight signals based on a 3-bit input. But instead of just routing signals, they used this to encrypt characters and image data.
 
@@ -98,6 +98,8 @@ Our circuit is based on XOR Cipher, it's based on the logic that:
 $$
 \underbrace{\(\text{Data} \oplus \text{Key}\)}_{\text{Encrypted Data}} \oplus \text{Key} = \text{Data} \oplus 0 = \text{Data}
 $$
+
+This tells us that XORing bits of data with a key scrambles the data into something unreadable, which we call encrypted data. Applying the XOR operation a second time with the same key restores the original data, which we call decrypted data.
 
 This makes it possible to use XOR both ways, encrypting and decrypting with the same setup. The user enters the data and can either use the generated key or set their own via switches. Once encrypted, the data is shown on a 7-segment display. Hit decrypt, and it flips right back.
 
