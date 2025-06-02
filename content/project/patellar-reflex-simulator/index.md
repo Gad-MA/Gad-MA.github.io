@@ -1,21 +1,32 @@
 ---
 title: A 3D Simulator of the Patellar Reflex and Demyelination Effects
-summary: 
+summary: "
+  Built a simulator that studies the effect of demyelination on neuronal signal propagation using the Hodgkin-Huxley model and 3D visualization using Unity. The project focuses on visualizing the knee jerk reflex. The simulation captures the delayed signal transmission weaker reflex caused by demyelination.
+
+  <br>
+
+  **`Tech:`** <i class='fa-brands fa-unity'></i> Unity | <i class='fa-brands fa-python'></i> Python
+  "
 tags:
   - Unity
   - Python
 weight: 1
 show_date: false
 links:
-  - icon: unity
+  - icon: github
     icon_pack: fab
-    name: Unity
-    url: 'https://#'
+    name: Code
+    url: 'https://github.com/Gad-MA/A-3D-Simulator-of-the-Patellar-Reflex-and-Demyelination-Effects'
 
-  - icon: python
-    icon_pack: fab
-    name: Python
-    url: 'https://#'
+  - icon: video
+    icon_pack: fas
+    name: Demo Video
+    url: 'https://gad-ma.github.io/project/patellar-reflex-simulator/#result'
+
+  - icon: download
+    icon_pack: fas
+    name: Download
+    url: 'https://github.com/Gad-MA/A-3D-Simulator-of-the-Patellar-Reflex-and-Demyelination-Effects/releases/download/v0.1.0/3D_Patellar_Reflex_Simulator.zip'
 ---
 You can download the simulator from the button below: 
 
