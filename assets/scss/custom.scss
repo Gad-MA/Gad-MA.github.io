@@ -1,8 +1,8 @@
-#about .article-style p{
+#about .article-style p {
     text-align: left !important;
 }
 
-.page-footer .container .site-footer{
+.page-footer .container .site-footer {
     margin-top: 0.5em;
 }
 
@@ -12,4 +12,17 @@
 
 #twitter-threads .mb-0 p {
     display: none;
+}
+
+// Flex box for the news section
+
+#recent-news {
+
+    li {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px; // Space between columns
+        padding: 5px 0;
+    }
+
 }

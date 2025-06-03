@@ -58,6 +58,20 @@ sections:
     design:
       columns: '2'
 
+  - block: collection
+    id: recent-news
+    content:
+      title: Recent News
+      # title: 📢 Recent News
+      # subtitle: '[All news >>](/tag/news/)'
+      filters:
+        folders:
+          - news
+        tag: 'News'
+    design:
+      columns: '2'
+      view: community/news_list
+
   - block: portfolio
     id: projects
     content:
