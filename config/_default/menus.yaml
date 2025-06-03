@@ -22,6 +22,9 @@ main:
   - name: ✏️ Blog Posts
     url: '#posts'
     weight: 50
+  - name: Talks
+    url: '#talks'
+    weight: 51
   - name: Contact
     url: '#contact'
     weight: 70

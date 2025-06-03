@@ -150,6 +150,17 @@ sections:
   #     columns: '2'
 
 
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
+
   - block: contact
     id: contact
     content:
