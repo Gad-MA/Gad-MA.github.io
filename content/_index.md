@@ -102,18 +102,18 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
 
-  - block: collection
-    id: research
-    content:
-      title: Research Work
-      filters:
-        folders:
-          - publication
-    design:
-      columns: '2'
-      # view: card
-      # view: citation
-      view: compact
+  # - block: collection
+  #   id: research
+  #   content:
+  #     title: Research Work
+  #     filters:
+  #       folders:
+  #         - publication
+  #   design:
+  #     columns: '2'
+  #     # view: card
+  #     # view: citation
+  #     view: compact
 
   - block: collection
     id: posts
