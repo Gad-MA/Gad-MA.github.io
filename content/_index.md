@@ -64,6 +64,7 @@ sections:
       title: Recent News
       # title: 📢 Recent News
       # subtitle: '[All news >>](/tag/news/)'
+      count: 5
       filters:
         folders:
           - news

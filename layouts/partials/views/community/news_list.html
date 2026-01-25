@@ -7,6 +7,6 @@
 
 <li>
     <strong>[{{ $item.Date.Year}}.{{ printf "%02d" $item.Date.Month }}]</strong>
-    <a href="{{$link}}" {{ $target | safeHTMLAttr }}> {{ $item.Title }}</a>
-     <!-- <span>{{ $item.Title }}</span> -->
+    <!-- <a href="{{$link}}" {{ $target | safeHTMLAttr }}> {{ $item.Title }}</a> -->
+    <span>{{ $item.Title | markdownify }}</span>
 </li>

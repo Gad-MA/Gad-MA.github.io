@@ -23,6 +23,21 @@
         align-items: flex-start;
         gap: 10px; // Space between columns
         padding: 5px 0;
-    }
 
+        span {
+            a {
+                font-weight: bold;
+                text-decoration: underline;
+
+                /* Optional: Change color to make it pop */
+                // color: inherit;
+
+                &:hover {
+                    /* Optional: Remove underline on hover */
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
 }
