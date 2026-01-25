@@ -32,8 +32,8 @@ interests:
   - ML & DL
   - Neuroscience
   - Computer Vision
-  - Image Processing
-  - Autonomous Driving
+  - Physics-Informed ML
+  - Neuroimaging
 
 # Education to show in About widget
 education:
@@ -116,7 +116,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-I'm Mohamed Gad, an undergrad Systems & Biomedical Engineering student at Cairo University. I have a strong interest in Artificial Intelligence, Computer Vision, Image Processing, Software Development, and Neuroscience. I aim to leverage these skills in advancing both medical technologies and autonomous driving cars.
+I'm a Systems & Biomedical Engineering undergraduate at Cairo University. I have a strong interest in Software Engineering and Artificial Intelligence, with focus on Physics-Informed Machine Learning and Deep Learning. I aim to apply these skills to multimodal biomedical challenges involving multivariate time series and neuroimaging data.
 <!-- {{< cta cta_text="Resume" cta_link="uploads/resume.pdf" cta_new_tab="true" >}} -->
 {style="text-align: justify;"}

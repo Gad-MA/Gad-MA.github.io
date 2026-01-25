@@ -25,15 +25,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Assistant
+          company: Faculty of Engineering - Cairo University
+          company_url: ''
+          company_logo: 'cufe3'
+          date_start: '2025-12-01'
+          date_end: ''
+          description: |2-
+            Working on developing an end-to-end pipeline for the automated longitudinal segmentation and tracking of multiple sclerosis brain lesions in FLAIR MRI images.
         - title: Software Engineering Research Intern
           company: University of Illinois Urbana-Champaign
           company_url: 'https://illinois.edu/'
           company_logo: 'uiuc'
           # location: Cairo, Egypt
           date_start: '2025-05-01'
-          date_end: ''
+          date_end: '2025-08-01'
           description: |2-
-        - title: Autonomous Driving System Software Engineer
+            Built Bash CLI tools and Python dataset analysis scripts to support research on using LLMs for software testing. Some examples are:
+              - Conducted comparative analysis between Large Language Models (LLMs) and human evaluators to detect equivalent mutants in mutation testing.
+              - Solved a large-scale data efficiency problem by developing a Bash CLI tool to optimize operations on a massive GitHub repository (9,000+ branches), reducing data retrieval latency from minutes to seconds.
+              - Automated dataset analysis and information retrieval pipelines using Python.
+        - title: Computer Vision Team Member
           company: Cairo University Racing Team - Formula Student
           company_url: 'https://www.linkedin.com/company/cairo-university-racing-team-formula-student/'
           company_logo: 'cairo_uni_racing_team_formula_student_logo'
@@ -52,9 +64,7 @@ sections:
           date_start: '2021-04-01'
           date_end: '2022-02-01'
           description: |2-
-              * Increased brand awareness by through successful execution of promotional campaigns and events at high schools.
-              * Organized and moderated virtual events to engage customers and increase brand loyalty.
-              * Developed a series of videos to promote products and services.
+              Promoted the brand through high school events, virtual meetings, and video content to grow the customer base.
     design:
       columns: '2'
 
