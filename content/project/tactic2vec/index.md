@@ -7,6 +7,7 @@ summary: "
   "
 tags:
     - Deep Learning
+    - Machine Learning
     - Python
 weight: 1
 show_date: false

@@ -10,8 +10,9 @@ tags:
     - Modeling
     - PINNs
     - Deep Learning
+    - Machine Learning
     - Python
-weight: 10
+weight: 3
 show_date: false
 links:
  - icon: book

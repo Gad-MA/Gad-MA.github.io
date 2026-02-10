@@ -9,8 +9,11 @@ summary: "
   "
 tags:
   - Unity
+  - Neuroscience
+  - Modeling
+  - Simulation
   - Python
-weight: 1
+weight: 10
 show_date: false
 links:
   - icon: github

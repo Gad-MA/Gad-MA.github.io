@@ -10,7 +10,7 @@ tags:
     - Neuroimaging
     - Medical Imaging
     - Python
-weight: 10
+weight: 2
 show_date: false
 links:
  - icon: github

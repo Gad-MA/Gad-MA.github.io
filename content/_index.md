@@ -8,7 +8,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Hello
+      title: Hellos
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
@@ -100,6 +100,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
+        - name: 'Machine Learning'
+          tag: 'Machine Learning'
         - name: 'Computer Vision'
           tag: 'Computer Vision'
         - name: 'Image Processing'
