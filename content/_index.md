@@ -83,6 +83,19 @@ sections:
       columns: '2'
       view: community/news_list
 
+  - block: collection
+    id: publications
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+    design:
+      columns: '2'
+      # view: card
+      view: citation
+      # view: compact
+
   - block: portfolio
     id: projects
     content:
@@ -114,19 +127,6 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-
-  - block: collection
-    id: publications
-    content:
-      title: Publications
-      filters:
-        folders:
-          - publication
-    design:
-      columns: '2'
-      # view: card
-      view: citation
-      # view: compact
 
   - block: collection
     id: posts
