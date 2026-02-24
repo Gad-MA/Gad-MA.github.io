@@ -16,8 +16,8 @@ main:
   - name: Projects
     url: '#projects'
     weight: 30
-  - name: Research
-    url: '#research'
+  - name: Publications
+    url: '#publications'
     weight: 40
   - name: ✏️ Blog Posts
     url: '#posts'
