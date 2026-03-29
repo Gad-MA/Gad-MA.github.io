@@ -25,6 +25,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Software QA Engineering Intern
+          company: Siemens EDA
+          company_url: 'https://www.siemens.com/en-us/company/electronic-design-automation/'
+          company_logo: 'siemens'
+          date_start: '2026-03-15'
+          date_end: ''
+          description: |2-
+            Part of the [Calibre](https://www.siemens.com/en-us/products/ic/calibre-manufacturing/fab-solutions/) team.
         - title: Research Assistant
           company: Faculty of Engineering - Cairo University
           company_url: ''
