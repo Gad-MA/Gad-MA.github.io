@@ -6,7 +6,7 @@ title: Mohamed Gad
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Mohamed
+first_name: Mohamed A. M.
 last_name: Gad
 
 # Status emoji
@@ -116,6 +116,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I'm a Systems & Biomedical Engineering undergraduate at Cairo University. I have a strong interest in Software Engineering and Artificial Intelligence, with focus on Physics-Informed Machine Learning and Deep Learning. I aim to apply these skills to multimodal biomedical challenges involving multivariate time series and neuroimaging data.
+I'm a Systems & Biomedical Engineering undergraduate at Cairo University. I have a strong interest in Software Engineering and Artificial Intelligence, with focus on Physics-Informed Machine Learning and Deep Learning. I aim to apply these skills to multimodal challenges.
 <!-- {{< cta cta_text="Resume" cta_link="uploads/resume.pdf" cta_new_tab="true" >}} -->
 {style="text-align: justify;"}
