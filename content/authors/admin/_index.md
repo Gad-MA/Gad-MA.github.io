@@ -33,7 +33,7 @@ interests:
   - Neuroscience
   - Computer Vision
   - Physics-Informed ML
-  - Neuroimaging
+  - Medical Imaging
 
 # Education to show in About widget
 education:
