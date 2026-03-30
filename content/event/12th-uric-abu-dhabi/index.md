@@ -35,9 +35,9 @@ image:
   caption: 'Credit: [**Abu Dhabi University**](https://www.adu.ac.ae/uric)'
 #   focal_point: right
 
-links:
-  - name: Research Project
-    url: publication/cardiac_activation_mapping
+# links:
+#   - name: Research Project
+#     url: 
 url_code: ''
 url_pdf: ''
 url_slides: 'https://docs.google.com/presentation/d/1WH_znlgLAzhLXXBhHgex5-jLV4nGMI7G/edit?usp=sharing&ouid=118012869722242772303&rtpof=true&sd=true'
