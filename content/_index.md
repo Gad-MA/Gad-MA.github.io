@@ -40,7 +40,7 @@ sections:
           date_start: '2025-12-01'
           date_end: ''
           description: |2-
-            Working on developing an end-to-end pipeline for the automated longitudinal segmentation and tracking of multiple sclerosis brain lesions in FLAIR MRI images.
+            Working on developing an end-to-end pipeline for the automated longitudinal segmentation and tracking of lesions in different medical imaging modalities.
         - title: Software Engineering Research Intern
           company: University of Illinois Urbana-Champaign
           company_url: 'https://illinois.edu/'
