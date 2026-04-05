@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Started my Software QA Engineering long-term internship at [Siemens EDA](https://www.siemens.com/en-us/company/electronic-design-automation/)."
+title: "Started my Software Engineering long-term internship at [Siemens EDA](https://www.siemens.com/en-us/company/electronic-design-automation/)."
 subtitle: ""
 summary: ""
 # authors: ["Shunsuke Kitada", "Hitoshi Iyatomi", "Yoshifumi Seki"]
