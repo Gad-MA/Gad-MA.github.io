@@ -38,9 +38,9 @@ sections:
           company_url: ''
           company_logo: 'cufe3'
           date_start: '2025-12-01'
-          date_end: ''
+          date_end: '2026-03-01'
           description: |2-
-            Working on developing an end-to-end pipeline for the automated longitudinal segmentation and tracking of lesions in different medical imaging modalities.
+            Worked on developing a deep learning pipeline for the automated longitudinal segmentation and tracking of lesions in different medical imaging modalities.
         - title: Software Engineering Research Intern
           company: University of Illinois Urbana-Champaign
           company_url: 'https://illinois.edu/'
