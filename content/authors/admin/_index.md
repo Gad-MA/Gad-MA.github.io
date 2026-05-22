@@ -99,13 +99,16 @@ social:
   #     header: false # make it true to appear in the nav bar with the label attribute on hovering
   # - icon: google-scholar
   #   icon_pack: ai
-  #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  #   link: https://scholar.google.com/citations?user=JyUFE18AAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/Gad-MA
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/Gad-MA
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0009-0002-2556-2459
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
