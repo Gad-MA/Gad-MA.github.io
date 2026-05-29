@@ -97,9 +97,9 @@ social:
   #   label: Follow me on Twitter
   #   display:
   #     header: false # make it true to appear in the nav bar with the label attribute on hovering
-  # - icon: google-scholar
-  #   icon_pack: ai
-  #   link: https://scholar.google.com/citations?user=JyUFE18AAAAJ&hl=en
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=JyUFE18AAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/Gad-MA
