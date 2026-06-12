@@ -49,10 +49,7 @@ sections:
           date_start: '2025-05-01'
           date_end: '2025-08-01'
           description: |2-
-            Built Bash CLI tools and Python dataset analysis scripts to support research on using LLMs for software testing. Some examples are:
-              - Conducted comparative analysis between Large Language Models (LLMs) and human evaluators to detect equivalent mutants in mutation testing.
-              - Solved a large-scale data efficiency problem by developing a Bash CLI tool to optimize operations on a massive GitHub repository (9,000+ branches), reducing data retrieval latency from minutes to seconds.
-              - Automated dataset analysis and information retrieval pipelines using Python.
+            Developing LLMs for software testing related topics, namely mutation testing.
         - title: Computer Vision Team Member
           company: Cairo University Racing Team - Formula Student
           company_url: 'https://www.linkedin.com/company/cairo-university-racing-team-formula-student/'
