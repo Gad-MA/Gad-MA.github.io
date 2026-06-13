@@ -1,7 +1,7 @@
 ---
 title: "Why does Andrej Karpathy Use SVMs for Embedding Lookups?"
 
-summary: ""
+summary: "In this blog post, we’ll explore the Exemplar-SVM technique promoted by Andrej Karpathy. We'll discuss the general embedding lookup process, what is exemplar-SVM, explain why this technique is effective, compare it to K-Nearest Neighbors (KNN), and walk through a brief code implementation."
 
 # Date published
 date: '2026-06-12'
@@ -9,7 +9,7 @@ date: '2026-06-12'
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Exemplar SVMs. Source: [Ensemble of Exemplar-SVMs for Object Detection and Beyond ](https://www.cs.cmu.edu/~tmalisie/projects/iccv11/)'
+  caption: ''
 
 authors:
   - admin
@@ -43,7 +43,7 @@ I came across a tweet by Andrej Karpathy that made me stop and think:
 <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true" align="center"><p lang="en" dir="ltr">Random note on k-Nearest Neighbor lookups on embeddings: in my experience much better results can be obtained by training SVMs instead. Not too widely known.<br><br>Short example:<a href="https://t.co/RXO9xiOmAB">https://t.co/RXO9xiOmAB</a><br><br>Works because SVM ranking considers the unique aspects of your query w.r.t. data.</p>&mdash; Andrej Karpathy (@karpathy) <a href="https://x.com/karpathy/status/1647025230546886658?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote>
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-My first thoughts was: What does he mean by training SVMs for embeddings lookups? Why would you train a model just to run a search? And most importantly, why does this idea work?
+My first thoughts were: What does he mean by training SVMs for embedding lookups? Why would you train a model just to perform a search? And, most importantly, why does this idea work?
 
 Embedding lookups usually follow the following pipeline. You embed your data, put it into an index like FAISS, and every time you have a new embedding (the query) that you want to find the most similar embedding to it in the index, you run a standard k-Nearest Neighbors (kNN) search. It's intuitive, and the industry standard.
 
@@ -59,7 +59,8 @@ To understand why this SVM trick is so useful, we first need to look at how we n
 
 Usually, if you want to find similar documents, you rely on a k-Nearest Neighbors (kNN) search. You embed your text, load the vectors into a fast index using a library like FAISS, and when a query comes in, the system calculates the geometric distance between your query and everything in the index.
 
-It works well most of the time, but it has a fundamental characteristic that kNN values every dimension equally.
+
+It works well most of the time, but it has a fundamental characteristic that kNN’s accuracy relies heavily on the embedding model's ability to distill the precise semantic intent from everything else.
 
 Let's say your embeddings have 1,536 dimensions. When a standard kNN algorithm calculates similarity, it gives all 1,536 of those dimensions the exact same mathematical weight.  The problem is that the values across those dimensions don't solely represent the "core semantic meaning". They also encode things like common phrasing, standard document formatting, or basic sentence structure that appear in almost every text. Because kNN is just calculating raw math, it relies entirely on the embedding model to emphasize the right signals. If the model allows this generic background noise to dominate the vector's magnitudes, kNN will blindly measure it. It might rank a document highly simply because it mathematically matches a massive volume of this generic background noise, completely missing the actual semantic heart of your query.
 
@@ -79,6 +80,8 @@ An Exemplar SVM works little differently. In this setup:
 - You have thousands of negative examples: the rest of the documents in your database.
 
 Instead of trying to learn a broad category, the SVM's only job is to look at your single query and figure out exactly "what makes it unique compared to the rest of your dataset".
+
+![](images/exemplar_svm.png "Illustration of the Exemplar-SVM pipeline. Generated using Nano Banana")
 
 ## The Shift in Thinking
 
@@ -159,7 +162,7 @@ clf.fit(x, y)
 Notice two critical parameters here:
 
 - `class_weight='balanced'`: Because we have one positive and a thousand negatives, this tells the SVM to heavily weight our single query so it doesn't get ignored.
-- `C=0.1`: This is the regularization parameter. A value of `0.1` works great in practice because it prevents the model from obsessing over noisy data. If you have extremely clean, highly trusted embeddings, you can bump this up to `1.0`.
+- `C=0.1`: This is the regularization parameter. A value of `0.1` works great in practice because it prevents the model from obsessing over noisy data. If you have extremely clean, highly trusted embeddings, you can bump this up to `1.0` (less regularization, as the parameter `C` is inversely proportional to regularization).
 
 ## Step 3: `predict()` vs `decision_function()`
 
