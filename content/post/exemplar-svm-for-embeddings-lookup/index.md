@@ -43,9 +43,9 @@ I came across a tweet by Andrej Karpathy that made me stop and think:
 <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true" align="center"><p lang="en" dir="ltr">Random note on k-Nearest Neighbor lookups on embeddings: in my experience much better results can be obtained by training SVMs instead. Not too widely known.<br><br>Short example:<a href="https://t.co/RXO9xiOmAB">https://t.co/RXO9xiOmAB</a><br><br>Works because SVM ranking considers the unique aspects of your query w.r.t. data.</p>&mdash; Andrej Karpathy (@karpathy) <a href="https://x.com/karpathy/status/1647025230546886658?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote>
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
-My first thoughts were: What does he mean by training SVMs for embedding lookups? Why would you train a model just to perform a search? And, most importantly, why does this idea work?
+My first thoughts were: What does he mean by training SVMs for embedding lookups? Why would you train a model just to perform a search? The results are better in what sense? And, most importantly, why does this idea work?
 
-Embedding lookups usually follow the following pipeline. You embed your data, put it into an index like FAISS, and every time you have a new embedding (the query) that you want to find the most similar embedding to it in the index, you run a standard k-Nearest Neighbors (kNN) search. It's intuitive, and the industry standard.
+Embedding lookups usually follow the following pipeline. You embed your data, put it into an index like FAISS, and every time you have a new embedding (the query) that you want to find the most similar embedding to it in the index, you run a standard k-Nearest Neighbors (kNN) search. It's intuitive, and the standard.
 
 But reading through the replies, someone linked [a 2011 computer vision paper](https://www.cs.cmu.edu/~tmalisie/projects/iccv11/) that explains the trick. It’s a technique called the **Exemplar SVM**.
 
@@ -90,7 +90,7 @@ This requires a change in how we view the database itself:
 - **The kNN Way:** Your data sits in a pre-built spatial index. You drop a query in, and it calculates the geometric distances.
 - **The SVM Way:** Your raw data is the index. For every single query that comes in, you train a brand new, disposable mini-model on the fly.
 
-By forcing the SVM to draw a line between your query and the rest of the database, it actively learns the structure of your data. It looks at the generic background noise that kNN trips over, sees that those traits belong to the negative examples as well, and effectively gives them a weight of zero. It focuses entirely on the unique characteristics of your exemplar, giving you a much cleaner, highly similar list of results.
+By forcing the SVM to draw a line between your query and the rest of the database, it actively learns the structure of your data. It looks at the generic background noise that kNN trips over, sees that those traits belong to the negative examples as well, and effectively gives them a weight of zero. It focuses entirely on the unique characteristics of your exemplar, giving you a much similar list of results (more semantically similar).
 
 # III. Under the Hood
 
