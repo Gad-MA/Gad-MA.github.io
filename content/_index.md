@@ -34,9 +34,9 @@ sections:
           description: |2-
             Part of the [Calibre](https://www.siemens.com/en-us/products/ic/calibre-manufacturing/fab-solutions/) team.
         - title: Research Assistant
-          company: Faculty of Engineering - Cairo University
+          company: Harvard Medical School
           company_url: ''
-          company_logo: 'cufe3'
+          company_logo: 'Harvard_Medical_School'
           date_start: '2025-12-01'
           date_end: '2026-03-01'
           description: |2-
