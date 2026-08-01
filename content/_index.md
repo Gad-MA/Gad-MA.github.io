@@ -58,9 +58,7 @@ sections:
           date_start: '2024-09-19'
           date_end: '2025-05-01'
           description: |2-
-            Developed a visual-based perception model for the autonomous racing car by:
-            - Implementing real-time 2D cone detection, color classification, and pose estimation using YOLO.
-            - Developing 2D-to-3D cone pose estimation using the classical Perspective-n-Point (PnP) algorithm.
+            Developed a visual-based perception system for the autonomous racing car, with focus on objects detection, pose estimation, and 2D-to-3D scene reconstruction.
         - title: Brand Ambassador
           company: Emonovo
           company_url: 'https://www.emonovo.com/'
