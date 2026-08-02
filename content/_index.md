@@ -33,14 +33,14 @@ sections:
           date_end: ''
           description: |2-
             Part of the [Calibre](https://www.siemens.com/en-us/products/ic/calibre-manufacturing/fab-solutions/) team.
-        - title: Research Assistant
-          company: Harvard Medical School
-          company_url: ''
-          company_logo: 'Harvard_Medical_School'
-          date_start: '2025-12-01'
-          date_end: '2026-03-01'
-          description: |2-
-            Worked on developing a deep learning pipeline for the automated longitudinal segmentation and tracking of lesions in different medical imaging modalities.
+#        - title: Research Assistant
+#          company: Harvard Medical School
+#          company_url: ''
+#          company_logo: 'Harvard_Medical_School'
+#          date_start: '2025-12-01'
+#          date_end: '2026-03-01'
+#          description: |2-
+#            Worked on developing a deep learning pipeline for the automated longitudinal segmentation and tracking of lesions in different medical imaging modalities.
         - title: Software Engineering Research Intern
           company: University of Illinois Urbana-Champaign
           company_url: 'https://illinois.edu/'
