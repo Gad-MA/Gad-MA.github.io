@@ -3,7 +3,7 @@ title: "FLAMeS Inference"
 summary: "
   This package reduces the complexity of using FLAMeS, a model for multiple sclerosis lesion segmentation from FLAIR images, into one intuitive command.
   <br>
-  **`Tech:`** <i class='fa-brands fa-python'></i> Python
+  **`Domain:`** Neuroimaging, Medical Imaging | **`Tech:`** <i class='fa-brands fa-python'></i> Python, PyTorch, nnU-Net, NiBabel
   "
 tags:
     - Neuroscience

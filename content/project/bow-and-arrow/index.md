@@ -3,7 +3,7 @@ title: Bow and Arrow Game using Java and Processing
 summary: "
   A game built using Processing and Java that tests your precision, speed, and strategic thinking!
   <br>
-  **`Tech:`** <i class='fa-brands fa-java'></i> Java, Processing5 | **`Concepts:`** OOP
+  **`Domain:`** Game Development | **`Tech:`** <i class='fa-brands fa-java'></i> Java, Processing5 | **`Concepts:`** OOP
   "
 tags:
   - OOP

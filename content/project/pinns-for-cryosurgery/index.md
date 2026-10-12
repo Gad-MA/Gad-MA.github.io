@@ -3,7 +3,7 @@ title: "Physics-Informed Neural Network (PINN) for Cryosurgery Simulations"
 summary: "
   PINN to solve the nonlinear PDE governing temperature distribution during cryosurgery simulations.
   <br>
-  **`Tech:`** <i class='fa-brands fa-python'></i> Python
+  **`Domain:`** Scientific ML, Physics-Informed ML, Biomedical Simulation | **`Tech:`** <i class='fa-brands fa-python'></i> Python, PyTorch, NumPy, Pandas, Matplotlib
   "
 tags:
     - Simulation

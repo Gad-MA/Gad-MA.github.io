@@ -1,7 +1,7 @@
 ---
 title: Cones Detection for Autonomous Driving Systems Using Classical Image Processing Techniques with OpenCV
 summary: "
-  **`Tech:`** <i class='fa-brands fa-python'></i> Python, OpenCV, NumPy
+  **`Domain:`** Computer Vision, Autonomous Driving | **`Tech:`** <i class='fa-brands fa-python'></i> Python, OpenCV, NumPy
   "
 tags:
     - Image Processing

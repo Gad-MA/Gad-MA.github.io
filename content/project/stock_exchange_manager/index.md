@@ -3,7 +3,7 @@ title: Stocks Exchange Manager
 summary: "
   A Java-based platform utilizing Object-Oriented Programming (OOP) principles, designed for traders to buy and sell stocks, manage portfolios, and analyze market data within a simulated stock exchange environment.
   <br>
-  **`Tech:`** <i class='fa-brands fa-java'></i> Java | **`Concepts:`** OOP
+  **`Domain:`** Software Engineering | **`Tech:`** <i class='fa-brands fa-java'></i> Java, JavaFX, Maven | **`Concepts:`** OOP
   "
 tags:
     - Java

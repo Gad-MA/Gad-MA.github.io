@@ -3,7 +3,7 @@ title: "Tactic2Vec: Deep Metric Learning for Similar Soccer Plays Retrieval"
 summary: "
   Tactic2Vec is a Deep Metric Learning Framework. It solves the problem of play retrieval by learning a dense vector representation where geometrically and tactically similar scenes are close to each other in the embedding space. 
   <br>
-  **`Tech:`** <i class='fa-brands fa-python'></i> Python
+  **`Domain:`** Sports Analytics, Metric Learning | **`Tech:`** <i class='fa-brands fa-python'></i> Python, PyTorch, FAISS, scikit-learn, Plotly
   "
 tags:
     - Deep Learning

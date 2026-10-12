@@ -2,7 +2,7 @@
 title: "Web server"
 summary: "
    Web server built using Go (Golang) that demonstrates handling HTTP requests, serving static files, and processing form submissions.
-  **`Tech:`** <i class='fa-brands fa-golang'></i> Golang
+  **`Domain:`** Backend, Networking | **`Tech:`** <i class='fa-brands fa-golang'></i> Golang
   "
 tags:
     - Go

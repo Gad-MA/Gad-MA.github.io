@@ -5,7 +5,7 @@ summary: "
 
   <br>
 
-  **`Tech:`** <i class='fa-brands fa-unity'></i> Unity | <i class='fa-brands fa-python'></i> Python
+  **`Domain:`** Computational Neuroscience, Simulation | **`Tech:`** <i class='fa-brands fa-unity'></i> Unity (C#) | <i class='fa-brands fa-python'></i> Python, SciPy, NumPy
   "
 tags:
   - Unity

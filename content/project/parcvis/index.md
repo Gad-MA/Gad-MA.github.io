@@ -3,7 +3,7 @@ title: "ParcVis: Neuroimaging Visualization Tool"
 summary: "
   Python-based GUI tool for 3D and 4D neuroimaging data (NIfTI maps) visualization.
   <br>
-  **`Tech:`** <i class='fa-brands fa-python'></i> Python
+  **`Domain:`** Neuroimaging, Data Visualization | **`Tech:`** <i class='fa-brands fa-python'></i> Python, Tkinter, NiBabel, NumPy, Matplotlib
   "
 tags:
     - Neuroscience
