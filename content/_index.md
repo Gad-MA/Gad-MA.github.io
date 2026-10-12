@@ -99,6 +99,17 @@ sections:
       view: citation
       # view: compact
 
+  - block: markdown
+    id: service
+    content:
+      title: Academic Service
+      text: |2-
+        **Peer Reviewer**
+
+        - [Interpreting Agent Behavior (IAB) Workshop](https://iab-agents.github.io/), NeurIPS 2026
+    design:
+      columns: '2'
+
   - block: portfolio
     id: projects
     content:
