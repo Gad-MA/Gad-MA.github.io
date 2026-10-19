@@ -41,3 +41,12 @@
 
     }
 }
+
+// Display equations that are too wide for the screen scroll horizontally.
+// The theme's .article-style has overflow: hidden, which would otherwise cut them off.
+mjx-container[display="true"] {
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
